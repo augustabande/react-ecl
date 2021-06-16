@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -10,34 +10,38 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <script>
+      var cl = document.querySelector('html').classList;
+      cl.remove('no-js');
+      cl.add('has-js');
+    </script>
+    <link rel="stylesheet" 
+      href="https://cdn1.fpfis.tech.ec.europa.eu/ecl/v2.38.0/ec-preset-website/styles/ecl-ec-preset-website.css"
+      integrity="sha256-PwQ12XC/4usL96v8qiuneU2XOPZgZ67bX9tNBNJJakA=",
+      "sha384-oBed+os9urcXVZdiqfRuqEeSsDRlwtikumljxIOHoqh85M2JAbSNu0jSFLDQ/yzh",
+      "sha512-rt0sUd36rAzFniGftOMkR0mSgGTx2WhvyqeHwRQxYAE7FiPhQDPU8yZDZ0l+1Cn20Q0bKQvSg3J0lpoUsXwOLA=="
+      crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet"
+      href="https://cdn1.fpfis.tech.ec.europa.eu/ecl/v2.38.0/ec-preset-website/styles/ecl-ec-preset-website-print.css"
+      integrity="sha256-HQD/5x5TrwRe0gpKYMtzCFNLejq3HupS/ewLXpkoo40=",
+      "sha384-EETXlx0gVUO+EA5p23VtKSnaWtlaJDVWAkYw1XtgUEjShJH9FRSukSc8EKcREogp",
+      "sha512-QysuHUEzZHvz43nqbYZM4a/0nu/AtldChsXdhYoAld172kaBXuqmypW21em9MZyMJ4/iIp23a2ifeZaQZXl/+g=="
+      crossorigin="anonymous" media="print" />
+      <script
+        src="https://cdn1.fpfis.tech.ec.europa.eu/ecl/v2.38.0/ec-preset-website/scripts/ecl-ec-preset-website.js"
+        integrity="sha256-L0lSyPUTHTWwsMF/Dbx4CwxOS+iVtjX1gNRormeosm4=",
+        "sha384-bRZrVJpKc6Sk//7K9/VyQ9jdhXj78GoLQky9KUCwyNQ4j0qAPM9QORJh/PXWRfKy",
+        "sha512-J96cyekjLqw1HVgfs0DIYVp5nJfMGn3iEod22KVTcoa+9AWKdYQ1GkLnI9cP6njHWRu3/ReMvrELi3H3/gr2hw=="
+        crossorigin="anonymous"
+      ></script>
+ 
+    <title>Website title</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+   
   </body>
 </html>
