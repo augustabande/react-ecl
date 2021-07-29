@@ -6,7 +6,7 @@ export default class Menu extends React.Component{
    }
    render(){ 
       return( 
-        <div> 
+       
          <section className="ecl-menu__inner" data-ecl-menu-inner="true">
             <header className="ecl-menu__inner-header">
                 <button data-ecl-menu-close="true" type="submit" className="ecl-menu__close ecl-button ecl-button--text">
@@ -169,7 +169,7 @@ export default class Menu extends React.Component{
                 </li>
             </ul>
             </section>
-        </div>
+        
       ); 
    }
 }

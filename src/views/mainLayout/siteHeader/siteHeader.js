@@ -3,6 +3,7 @@ import Classnameheader from "../siteHeader/className";
 import Languageselector from "../siteHeader/language_selector";
 import Search from "../siteHeader/search";
 import Login from "../siteHeader/login";
+import Menu from "../siteHeader/menu";
 
 export default class Header extends React.Component{ 
    // eslint-disable-next-line no-useless-constructor
@@ -27,6 +28,7 @@ export default class Header extends React.Component{
             <Classnameheader/> 
             <div className="ecl-site-header-harmonised__banner">
                <div className="ecl-container">Site name</div>
+               <Menu/>
             </div>
          </header>
         </div>

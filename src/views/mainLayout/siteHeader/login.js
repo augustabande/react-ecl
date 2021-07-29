@@ -10,7 +10,7 @@ export default class Login extends React.Component{
             <div className="ecl-site-header-harmonised__action">
                 <div className="ecl-site-header-harmonised__login-container">
                     <a className="ecl-link ecl-link--standalone ecl-site-header-harmonised__login-toggle" href="/example" data-ecl-login-toggle="true" aria-controls="login-box-id" aria-expanded="false">
-                        <svg focusable="false" aria-hidden="true" className="ecl-site-header-harmonised__icon ecl-icon ecl-icon--s"><use xlinkHref="images/logged-in.svg"></use></svg>Logged in
+                        <svg focusable="false" aria-hidden="true" className="ecl-site-header-harmonised__icon ecl-icon ecl-icon--s"><use xlinkHref="images/icons.svg#general--logged-in"></use></svg>Logged in
                         <svg focusable="false" aria-hidden="true" className="ecl-site-header-harmonised__login-arrow ecl-icon ecl-icon--xs"><use xlinkHref="images/arrow-down.svg"></use></svg>
                     </a>
                     <div id="login-box-id" className="ecl-site-header-harmonised__login-box" data-ecl-login-box="true">
