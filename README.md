@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# ECL template based on React library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For more information on ECL v2 - Europa Component Library, see the [official documentation](https://github.com/ec-europa/europa-component-library).
 
-## Available Scripts
+## Quick start
 
 In the project directory, you can run:
 
