@@ -5,15 +5,9 @@ export default class Menu extends React.Component{
       super(props); 
    }
    render(){ 
-      return( 
-       
-        <nav className="ecl-menu" aria-expanded="false" data-ecl-menu="true">
-        <div className="ecl-menu__overlay" data-ecl-menu-overlay="true"></div>
-        <div className="ecl-container ecl-menu__container"><a className="ecl-link ecl-link--standalone ecl-menu__open" href="/example"
-            data-ecl-menu-open="true"><svg focusable="false" aria-hidden="true" className="ecl-icon ecl-icon--s">
-              <use xlinkHref="/component-library/dist/media/icons.3cf410f9.svg#general--hamburger"></use>
-            </svg>Menu</a>
-          <div className="ecl-menu__site-name">Site name</div>
+      return(    
+        
+         
           <section className="ecl-menu__inner" data-ecl-menu-inner="true">
             <header className="ecl-menu__inner-header"><button data-ecl-menu-close="true" type="submit"
                 className="ecl-menu__close ecl-button ecl-button--text"><span
@@ -231,8 +225,7 @@ export default class Menu extends React.Component{
               </li>
             </ul>
           </section>
-        </div>
-      </nav>
+      
         
       ); 
    }
