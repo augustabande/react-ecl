@@ -1,4 +1,8 @@
 import React from "react";
+import ContactUs from "./contactus";
+import Followus from "./followus";
+import Aboutus from "./aboutus";
+import Relatedsites from "./relatedsites";
 export default class Footer extends React.Component{ 
    // eslint-disable-next-line no-useless-constructor
    constructor(props){ 
@@ -12,10 +16,13 @@ export default class Footer extends React.Component{
                   <div className="ecl-footer-harmonised__description">This site is managed by the Directorate-General for &quot;DG identification&quot;</div>
                </section>
                <div className="ecl-footer-harmonised__section2">
-                  <section className="ecl-footer-harmonised__section"></section>
-                  <section className="ecl-footer-harmonised__section"></section>
+                  <ContactUs/>
+                  <Followus/>
                </div>
-               <div className="ecl-footer-harmonised__section3"></div>
+               <div className="ecl-footer-harmonised__section3">
+                  <Aboutus/>
+                  <Relatedsites/>
+               </div>
                <section className="ecl-footer-harmonised__section ecl-footer-harmonised__section6"></section>
                <section className="ecl-footer-harmonised__section ecl-footer-harmonised__section7"><a href="https://ec.europa.eu/info/index_en" className="ecl-footer-harmonised__title ecl-link ecl-link--standalone">European Commission</a></section>
                <section className="ecl-footer-harmonised__section ecl-footer-harmonised__section8">

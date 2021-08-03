@@ -6,13 +6,12 @@ export default class Aboutus extends React.Component{
    }
    render(){ 
       return( 
-
         <section className="ecl-footer-harmonised__section">
-        <div className="ecl-footer-harmonised__title ecl-footer-harmonised__title--separator">About us</div>
-        <ul className="ecl-footer-harmonised__list">
-          <li className="ecl-footer-harmonised__list-item"><a href="/example" className="ecl-footer-harmonised__link ecl-link ecl-link--standalone" aria-label="Link to Information about the DG">Information about the DG</a></li>
-        </ul>
-      </section>
+          <div className="ecl-footer-harmonised__title ecl-footer-harmonised__title--separator">About us</div>
+          <ul className="ecl-footer-harmonised__list">
+            <li className="ecl-footer-harmonised__list-item"><a href="/example" className="ecl-footer-harmonised__link ecl-link ecl-link--standalone" aria-label="Link to Information about the DG">Information about the DG</a></li>
+          </ul>
+        </section>
      ); 
  }
 }

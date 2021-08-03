@@ -5,8 +5,7 @@ export default class Search extends React.Component{
       super(props); 
    }
    render(){ 
-      return( 
-        <div> 
+      return(          
            <div className="ecl-site-header-harmonised__action">
                <div className="ecl-site-header-harmonised__search-container">
                     <a className="ecl-link ecl-link--standalone ecl-site-header-harmonised__search-toggle" href="/example" data-ecl-search-toggle="true" aria-controls="search-form-id" aria-expanded="false">
@@ -26,8 +25,7 @@ export default class Search extends React.Component{
                         </button>
                     </form>
                 </div>
-            </div>
-        </div>
+            </div>        
       ); 
    }
 }

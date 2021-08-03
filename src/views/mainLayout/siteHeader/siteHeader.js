@@ -14,7 +14,7 @@ export default class Header extends React.Component{
          <header data-ecl-auto-init="SiteHeaderHarmonised" className="ecl-site-header-harmonised--group1 ecl-site-header-harmonised" data-ecl-auto-initialized="true">
             <HarmonisedContainer/>
             <Classnameheader/> 
-            <div className="ecl-site-header-harmonised__banner"></div>
+            
             <Nav/>
          </header>
         
