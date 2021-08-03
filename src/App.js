@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import MainTemplate from "./views/mainLayout/mainTemplate/mainTemplate";
-import Home from "./views/pages/pageTemplate/singlePage/home";
+import Home from "./views/pageLayout/pageContent/home/home";
 
 class App extends Component {
   // eslint-disable-next-line no-useless-constructor

@@ -27,7 +27,7 @@ export default class Header extends React.Component{
             </div>
             <Classnameheader/> 
             <div className="ecl-site-header-harmonised__banner">
-               <div className="ecl-container">Site name</div>
+               
                <Menu/>
             </div>
          </header>

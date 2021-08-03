@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../siteHeader/siteHeader";
-import Pageheader from "../../pages/pageTemplate/pageHeader/pageHeader";
-import Home from "../../pages/pageTemplate/singlePage/home";
+
+import Pagetemplate from "../../pageLayout/pageTemplate/pageTemplate";
 import Footer from "../footer/footer";
 
 export default class MainTemplate extends React.Component{    
@@ -12,8 +12,8 @@ export default class MainTemplate extends React.Component{
        return( 
           <div> 
              <Header/> 
-             <Pageheader/>
-             <Home/>
+            
+             <Pagetemplate/>
              <Footer/> 
          </div>
       ); 
